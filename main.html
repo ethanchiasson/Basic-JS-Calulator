@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Digital Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-pre class="previous-op"></div>
+        <div data-current class="current-op"></div>
+      </div>
+      <button data-clear class="span-two" id="clearbutton">CLEAR</button>
+      <button data-del id="deletebutton">◄</button>
+      <button data-operation id="dividebutton">÷</button>
+      <button data-number id="onebutton">1</button>
+      <button data-number id="twobutton">2</button>
+      <button data-number id="threbutton">3</button>
+      <button data-operation id="multiplybutton">•</button>
+      <button data-number id="fourbutton">4</button>
+      <button data-number id="fivebutton">5</button>
+      <button data-number id="sixbutton">6</button>
+      <button data-operation id="plusbutton">+</button>
+      <button data-number id="sevebutton">7</button>
+      <button data-number id="eightbutton">8</button>
+      <button data-number id="ninebutton">9</button>
+      <button data-operation id="minusbutton">-</button>
+      <button data-number id="deicmalbutton">.</button>
+      <button data-number id="zerobutton">0</button>
+      <button data-equals class="span-two" id="equalbutton">=</button>
+      <div
+        class="span-four"
+        style="background-color: #212121;"
+        onclick="window.location.href = 'https://ethanchiasson.com';"
+      >
+        Made with ♥ by EthanChiasson.com
+      </div>
+    </div>
+  </body>
+</html>
